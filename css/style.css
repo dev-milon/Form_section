@@ -1,0 +1,74 @@
+.section-padding {
+    position: relative;
+}
+
+.section-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 60%;
+    background-image: url(../image/94-485x360.jpg);
+    background-size: cover;
+    background: #31b6de;
+    z-index: -1;
+    opacity: .8;
+}
+
+.contact-from {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#message {
+    height: 150px;
+}
+
+.contact-from input,
+.contact-from textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    margin-bottom: 17px;
+    color: #333;
+}
+
+.contact-from h2 {
+    color: #fff;
+}
+
+
+/*.contact-from input:focus {
+    border: 1px solid #fff;
+}
+*/
+
+.contact-from input[type=submit] {
+    width: auto;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: #31b6de;
+    font-weight: 700;
+}
+
+
+/* right side area */
+
+.appointment-text {
+    padding-left: 100px;
+    padding-top: 95px;
+}
+
+ul {
+    margin-left: -14px;
+}
+
+.box-btn {
+    background-color: #31b6de;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+}
